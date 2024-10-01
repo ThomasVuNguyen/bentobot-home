@@ -1,0 +1,5 @@
+baseURL = 'https://comfyspace.tech/'
+languageCode = 'en-us'
+title = 'ComfySpace'
+theme = 'ananke'
+
