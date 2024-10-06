@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BentoBot Fight</title>
-    <meta content="A global robot battle arena at your fingertips" property="og:title" />
-    <meta property="og:description" content="A global, free-to-play combat robot fight tournament controlled from your couch" />
-    <meta property="og:image" content="https://bentobot.tech/pic/power.png" />
+    <meta content="Build robots comfortably with ComfySpace" property="og:title" />
+    <meta property="og:description" content="Learn, build, and share creative robotics while having fun!" />
+    <meta property="og:image" content="https://comfyspace.tech/brand-assets/social-image.gif" />
     <meta content="Fight real robots from your bed" property="twitter:title" />
-    <meta property="twitter:description" content="Fight real robots from your bed" />
-    <meta property="twitter:image" content="https://bentobot.tech/pic/power.png" />
-    <meta property="twitter:site" content="bentobot.tech" />
+    <meta property="twitter:description" content="Learn, build, and share creative robotics while having fun!" />
+    <meta property="twitter:image" content="https://comfyspace.tech/brand-assets/social-image.gif" />
+    <meta property="twitter:site" content="comfyspace.tech" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="https://comfyspace.tech/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://comfyspace.tech/favicon/favicon-32x32.png">
@@ -32,6 +32,8 @@
   </script>
     <link rel="stylesheet" href="/css/main.css">
     
+
+
 </head>
 <body>
       <div x-data="{ isOpen: false }">
@@ -53,8 +55,8 @@
               </button>
             </div>
             <div class=" hidden lg:flex lg:gap-x-12">
-              <a href="https://www.youtube.com/@thomasthemaker/streams" target="_blank" class="nav-button text-sm font-semibold leading-6" style="text-decoration: none;">Watch</a>
-              <a href="https://thomasthemaker.substack.com/" target="_blank" class="nav-button text-sm font-semibold leading-6" style="text-decoration: none;">Read</a>
+              <a href="https://www.youtube.com/@thomasthemaker/live" target="_blank" class="nav-button text-sm font-semibold leading-6" style="text-decoration: none;">Watch</a>
+              <a href="/read" class="nav-button text-sm font-semibold leading-6" style="text-decoration: none;">Read</a>
               <a href="/support" class="nav-button text-sm font-semibold leading-6" style="text-decoration: none;">About us</a>
 
             </div>
@@ -68,9 +70,9 @@
               </button></a>
             </div>
           </nav>
-          <!-- Mobile menu, show/hide based on menu open state. -->
+          
           <div x-show="isOpen" class="lg:hidden background" role="dialog" aria-modal="true">
-            <!-- Background backdrop, show/hide based on slide-over state. -->
+            
             <div class="fixed inset-0 z-10"></div>
             <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div class="flex items-center justify-between">
@@ -88,8 +90,8 @@
               <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
-                    <a href="https://www.youtube.com/@thomasthemaker/streams" target="_blank" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 nav-button hover:bg-gray-50 " style="text-decoration: none;">Watch</a>
-                    <a href="https://thomasthemaker.substack.com/" target="_blank" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 nav-button hover:bg-gray-50 " style="text-decoration: none;">Read</a>
+                    <a href="https://www.youtube.com/@thomasthemaker/live" target="_blank" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 nav-button hover:bg-gray-50 " style="text-decoration: none;">Watch</a>
+                    <a href="/read" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 nav-button hover:bg-gray-50 " style="text-decoration: none;">Read</a>
                     <a href="/support" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 nav-button hover:bg-gray-50 " style="text-decoration: none;">About Us</a>
                   </div>
                   
@@ -109,11 +111,12 @@
       </div>
       <div class="background">
         
-      {{ block "body" .}}
-      {{end}}
+      
+
+
     </div>
     
-      <!-- Footer -->
+      
       <footer class="background">
         <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
           <nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
@@ -126,12 +129,7 @@
 
           </nav>
           <div class="mt-10 flex justify-center space-x-10">
-            <!--<a href="https://www.facebook.com/profile.php?id=61551791159535" class="hover:text-gray-500 primary-color-text" style="text-decoration: none;" target="_blank">
-              <span class="sr-only">Facebook</span>
-              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
-              </svg>
-            </a>-->
+            
             <a href="https://www.instagram.com/comfyrobotics/" class="hover:text-gray-500 primary-color-text" style="text-decoration: none;" target="_blank">
               <span class="sr-only">Instagram</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -169,14 +167,14 @@
       </footer>
 
       <script type="module">
-        // Import the functions you need from the SDKs you need
+        
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
+        
+        
       
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        
+        
         const firebaseConfig = {
           apiKey: "AIzaSyC2U2LL4kdSYd1clW4iQSXr4PFKuK_1uaA",
           authDomain: "comfyspace-73966.firebaseapp.com",
@@ -187,12 +185,12 @@
           measurementId: "G-E3YKVED4S4"
         };
       
-        // Initialize Firebase
+        
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
       </script>
 
-      <!-- 100% privacy-first analytics -->
+      
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>

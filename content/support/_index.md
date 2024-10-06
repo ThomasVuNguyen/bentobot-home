@@ -34,6 +34,6 @@ milestones:
 
 ---
 {{<the_team>}}
-{{<milestone>}}
+<!--{{<milestone>}}-->
 {{<get_in_touch>}}
-{{<faq>}}
+<!--{{<faq>}}-->
