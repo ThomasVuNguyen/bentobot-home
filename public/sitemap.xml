@@ -2,66 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://comfyspace.tech/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://comfyspace.tech/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/buy/</loc>
+    <loc>https://comfyspace.tech/support/</loc>
   </url><url>
-    <loc>http://localhost:1313/download/</loc>
+    <loc>https://comfyspace.tech/support/account_deletion/</loc>
   </url><url>
-    <loc>http://localhost:1313/learn/a-friendly-guide-to-robotics/</loc>
+    <loc>https://comfyspace.tech/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/learn/how-to-build-a-robot/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/robots-new-man-best-friend/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/welcome-to-comfy-space/</loc>
-  </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/release/1.0.0/</loc>
-  </url><url>
-    <loc>http://localhost:1313/release/</loc>
-  </url><url>
-    <loc>http://localhost:1313/share/</loc>
-  </url><url>
-    <loc>http://localhost:1313/support/</loc>
-  </url><url>
-    <loc>http://localhost:1313/support/account_deletion/</loc>
-  </url><url>
-    <loc>http://localhost:1313/terms-and-conditions/</loc>
-  </url><url>
-    <loc>http://localhost:1313/privacy/lesson1/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/battery-basic/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/app-overview/</loc>
-  </url><url>
-    <loc>http://localhost:1313/bento/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/build/</loc>
-  </url><url>
-    <loc>http://localhost:1313/script/</loc>
-  </url><url>
-    <loc>http://localhost:1313/more/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/robot-programming/</loc>
-  </url><url>
-    <loc>http://localhost:1313/build/playcar/</loc>
-  </url><url>
-    <loc>http://localhost:1313/build/baymax/</loc>
-  </url><url>
-    <loc>http://localhost:1313/build/rappit/</loc>
-  </url><url>
-    <loc>http://localhost:1313/emulator/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/learn/traditional-robot-building/</loc>
+    <loc>https://comfyspace.tech/tags/</loc>
   </url>
 </urlset>
